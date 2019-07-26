@@ -12,7 +12,9 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
-
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
          addEventListener("load", function () {
              setTimeout(hideURLbar, 0);
@@ -32,6 +34,7 @@
 
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
+    <link href="{{ asset('css/footer.css') }}" rel="stylesheet">
 
     <!-- Custom Theme files -->
 
@@ -129,13 +132,38 @@
     </div>
 
 
-
-
-
-
-
-
-
-
+<!-- Footer -->
+	<section id="footer" >
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Idea By</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Sahil Ansari</a></li>
+						</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Created By</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="https://sanjeevan.netlify.com/" target="_blank"><i class="fa fa-angle-double-right"></i>Sanjeevan Adhikari</a></li>
+						</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>TCS NQT 2020 Preparation done By</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Monsoon Bhuiyan</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p class="h6">&copy All right Reserved</p>
+				</div>
+				</hr>
+			</div>
+		</div>
+	</section>
+	<!-- ./Footer -->
 </body>
+
 </html>
