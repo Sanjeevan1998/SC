@@ -31,7 +31,7 @@ class SearchController extends Controller
                     ['branch_name','=',$request->branch_name],
                     ['semester_name','=',$request->semester_name],
                     ['subject_name','=',$request->subject_name]
-                ])->get();
+                ])->orderBy('votes', 'desc')->get();
     return view('search.result',compact('uploads'));
 
   }

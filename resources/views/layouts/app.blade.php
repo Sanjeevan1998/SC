@@ -148,12 +148,7 @@
 						<li><a href="https://sanjeevan.netlify.com/" target="_blank"><i class="fa fa-angle-double-right"></i>Sanjeevan Adhikari</a></li>
 						</ul>
 				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>TCS NQT 2020 Preparation done By</h5>
-					<ul class="list-unstyled quick-links">
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Monsoon Bhuiyan</a></li>
-					</ul>
-				</div>
+			
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">

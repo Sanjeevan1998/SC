@@ -24,7 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $uploads=upload::latest()->paginate(2);
+        $uploads=upload::orderBy('votes', 'desc')->paginate(2);
         return view('home',compact('uploads'));
     }
 }

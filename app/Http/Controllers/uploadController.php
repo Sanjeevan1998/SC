@@ -36,7 +36,7 @@ class uploadController extends Controller
       $uploadfile= $request->file('fileUpload')->store('pdfs');
 
       $request->validate([
-        'fileUpload' => 'required|mimes:pdf'
+        'fileUpload' => 'required|mimes:pdf,doc,docx,ppt'
       ]);
 
       upload::create([

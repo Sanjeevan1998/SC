@@ -51,16 +51,24 @@ active disabled
                     </div>
 
                     <div class="form-group">
-                      <label for="exampleInputEmail1"><strong>Year</strong></label>
-                      <input name="year" class="form-control">
+                      <label><strong>Year</strong></label>
+                      <input required name="year" class="form-control">
                       </input>
+                      <br>
+                      @error('year')
+                        <span class="text-danger"><strong>&nbsp;{{$message}}</strong></span>
+                    @enderror
                     </div>
 
 
                     <div class="form-group">
                       <label><strong>Description</strong></label>
-                      <textarea name="description" rows="10" cols="30" class="form-control">
+                      <textarea required name="description" rows="10" cols="30" class="form-control">
                       </textarea>
+                      <br>
+                      @error('description')
+                        <span class="text-danger"><strong>&nbsp;{{$message}}</strong></span>
+                    @enderror
                     </div>
                     <br>
                     <div class="form-group">
